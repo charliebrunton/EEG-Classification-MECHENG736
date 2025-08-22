@@ -1,0 +1,26 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore output plots
+plots/
+
+# Ignore large or raw data files
+data/*.wav
+data/*.csv
+
+# Ignore your appendix file (not needed in repo)
+appendix.py
